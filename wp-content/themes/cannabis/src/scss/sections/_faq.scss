@@ -1,0 +1,28 @@
+.faq-accordion {
+  h4 {
+    color: $color-nav-link;
+    font-size: 1.125em;
+    font-weight: 400;
+    padding: 0;
+  }
+
+  .card {
+    border: 0;
+    border-radius: 0;
+  }
+
+  .card-header {
+    background-color: $color-background-grey;
+    border-bottom: 0;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 15px;
+  }
+
+  .card-body {
+    background-color: $color-background-grey;
+    color: $color-text-body;
+    font-size: 1em;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,13 @@
+.section-partners {
+  background-color: $color-background-grey;
+
+  img {
+    @include border-style(#979797, 1px);
+    @include prefix(filter, grayscale(1), webkit);
+    border-radius: 4px;
+
+    &:hover {
+      @include prefix(filter, grayscale(0), webkit);
+    }
+  }
+}

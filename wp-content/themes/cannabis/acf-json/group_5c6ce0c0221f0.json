@@ -1,0 +1,49 @@
+{
+    "key": "group_5c6ce0c0221f0",
+    "title": "Custom Page Title",
+    "fields": [
+        {
+            "key": "field_5c6ce0cb2f694",
+            "label": "Custom Title",
+            "name": "custom_title",
+            "type": "text",
+            "instructions": "It works if default cover is selected.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-dynamic.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "discussion",
+        "comments",
+        "revisions",
+        "featured_image"
+    ],
+    "active": 1,
+    "description": "",
+    "modified": 1550639987
+}

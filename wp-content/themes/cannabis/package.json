@@ -1,0 +1,53 @@
+{
+  "title": "Mi Cannabis Doctor Theme",
+  "name": "mi-cannabis-doctor",
+  "version": "1.0.0",
+  "description": "A post modern, simple, responsive corporate theme designed by Pricode",
+  "keywords": [
+    "css",
+    "sass",
+    "wordpress",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "",
+  "bugs": {
+    "url": "https://micannabisdoctor.com",
+    "email": "hans@steffens.co"
+  },
+  "license": "GPL-2.0-or-later",
+  "author": "Pricode",
+  "contributors": [
+    "Hans Steffens (http://pricode.io/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://teamitheroes@bitbucket.org/heroesit/mi-cannabis-doctor.git"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.7.0",
+    "bootstrap": "4.2.1",
+    "imagemin": "^6.1.0",
+    "jquery": "3.3.1",
+    "popper.js": "^1.14.7",
+    "simple-line-icons": "^2.4.1",
+    "slick-carousel": "^1.8.1",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "2.0.7",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sass-unicode": "^1.0.1",
+    "gulp-uglify": "^3.0.1"
+  }
+}

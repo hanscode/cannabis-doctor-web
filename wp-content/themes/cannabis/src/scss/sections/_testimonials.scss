@@ -1,0 +1,72 @@
+@import './dist/vendor/slick/slick';
+@import './dist/vendor/slick/slick-theme';
+
+.section-testimonials {
+  .slide {
+    @include border-style($color-border-dark, 1px);
+    @include prefix(border-radius, 4px, webkit moz);
+
+    max-width: 480px;
+    min-height: 217px;
+    padding: 28px;
+
+    img {
+      @include prefix(border-radius, 50%, webkit moz);
+    }
+
+    p {
+      font-size: .875em;
+
+      span {
+        color: $brand-color;
+        font-family: $font-title;
+        line-height: 24px;
+      }
+    }
+
+    .testimony {
+      padding-left: 125px;
+    }
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .next,
+  .prev {
+    &::before {
+      color: $slick-arrow-color;
+      float: right;
+      font-size: 1.1em;
+    }
+  }
+
+  .prev {
+    &::before {
+      border: 2px solid;
+      content: '\f105';
+      cursor: pointer;
+      font-family: 'Font Awesome\ 5 Free';
+      font-weight: 900;
+      margin: 15px 30px 0 0;
+      padding: 7px 16px;
+    }
+  }
+
+  .next {
+    &::before {
+      border: 2px solid;
+      content: '\f104';
+      cursor: pointer;
+      font-family: 'Font Awesome\ 5 Free';
+      font-weight: 900;
+      margin: 15px -2px 0 0;
+      padding: 7px 16px;
+    }
+  }
+}
+
+.float-testimony {
+  float: none;
+}

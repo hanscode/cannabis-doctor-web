@@ -1,0 +1,20 @@
+.layer-default {
+  @include layer($color-brand-gradient, 375px);
+}
+
+.cover-area-default {
+  @include cover(375px, center, no-repeat, cover);
+
+  span {
+    @include prefix(font-smoothing, antialiased, webkit moz);
+    font-family: $font-title;
+    font-weight: 700;
+  }
+
+  h1 {
+    font-family: $font-title;
+    font-weight: 400;
+  }
+}
+
+

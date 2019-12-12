@@ -1,0 +1,175 @@
+@media (max-width: $break-l) {
+  .top-social {
+    display: none;
+  }
+
+  .btn-outline-success {
+    width: 100%;
+  }
+
+  .cover-area-home {
+    span {
+      font-size: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .section-benefits {
+    background-position: bottom center;
+    padding-bottom: 300px;
+  }
+
+  .next,
+  .prev {
+    &::before {
+      display: none;
+    }
+  }
+
+  .section-cta {
+    h2 {
+      font-size: 2em;
+    }
+  }
+
+  .admin-bar {
+    .fixed-top {
+      top: 0;
+    }
+  }
+
+  .navbar-nav {
+    li {
+      border-top: 1px solid $color-border-nav-item;
+
+      &:first-child {
+        border: 0;
+      }
+
+      &:last-child {
+        border: 0;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  h1 {
+    font-size: 3.75rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .admin-bar {
+    .fixed-top {
+      top: 32px;
+    }
+
+    .sticky-navbar {
+      top: 32px;
+    }
+  }
+
+  .navbar-light {
+    .navbar-nav {
+      .nav-link {
+        text-align: left;
+      }
+    }
+  }
+
+  .section-about {
+    h2 {
+      text-align: left;
+    }
+  }
+
+  .section-testimonials {
+    .slide {
+      max-width: 516px;
+    }
+
+    h2 {
+      text-align: left;
+    }
+  }
+
+  .float-testimony {
+    float: left;
+  }
+
+  .section-benefits {
+    background-size: 50%;
+  }
+
+  .footer-copyright {
+    p {
+      float: left;
+      text-align: left;
+
+      span {
+        display: inline;
+      }
+    }
+
+    ul {
+
+      &.nav {
+        display: inline-block;
+        float: right;
+        text-align: left;
+
+        li {
+          float: left;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $break-m) {
+  .table {
+    .thead-light {
+      th {
+        text-align: center;
+      }
+    }
+
+    th,
+    td {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: $break-s) {
+  .section-benefits {
+    padding-bottom: 230px;
+  }
+}
+
+@media (max-width: $break-xs) {
+  .section-benefits {
+    padding-bottom: 150px;
+  }
+
+  .section-testimonials {
+    .slide {
+      max-width: 300px;
+
+      img {
+        width: 20%;
+      }
+
+      .testimony {
+        padding-left: 60px;
+      }
+    }
+  }
+}

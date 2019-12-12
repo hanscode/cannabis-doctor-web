@@ -1,0 +1,178 @@
+// Extends
+%btn-hover {
+  &:hover {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+%not-last-child {
+  &:not(:last-child) {
+    font-size: 1.063em;
+    padding: .563rem .75rem;
+  }
+}
+
+// Base
+
+.top {
+  height: 50px;
+  position: relative;
+  top: 0;
+  z-index: 20px;
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $accent-color;
+    }
+  }
+
+  &-info {
+    li {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}
+
+.btn-outline-light {
+  border-color: $white;
+  border-width: 3px;
+  font-size: 1.063em;
+  font-weight: 700;
+  padding: .625em 2.01em;
+
+  &:hover {
+    background-color: $color-hover-btn-light;
+    color: $brand-color;
+  }
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.navbar-light {
+  border-bottom: 1px solid $color-border-light;
+
+  .navbar-toggler-icon {
+    background-image: url('../../dist/img/bars-solid.svg');
+  }
+
+  .close-toggler {
+    background: no-repeat center center;
+    background-image: url('../../dist/img/times-solid.svg');
+    background-size: 100% 100%;
+    content: '';
+    display: none;
+    height: 1.5em;
+    vertical-align: middle;
+    width: 1.5em;
+  }
+
+  .navbar-toggler {
+    border: 0;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      @include hover-link($brand-color, underline);
+      color: $color-nav-link;
+      text-align: center;
+    }
+  }
+}
+
+ul {
+  &.navbar-nav {
+    li {
+      font-size: 1.063em;
+      padding: .563rem .75rem;
+    }
+  }
+}
+
+.navbar-nav {
+
+  .current-menu-item {
+    text-decoration: underline;
+
+    .nav-link {
+      color: $brand-color;
+    }
+  }
+}
+
+.btn-outline-success {
+  border-width: 3px;
+  font-weight: 700;
+  padding: .375em 1.813em;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.modal-header {
+  background-color: $brand-color;
+  color: $white;
+
+  .modal-title {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.close {
+  color: $white;
+  opacity: 1;
+  text-shadow: none;
+}
+
+.modal-body {
+
+  p {
+    font-size: 14px;
+  }
+
+  input {
+    &::placeholder {
+      color: $color-input-placeholder;
+      font-size: 14px;
+    }
+  }
+
+  .fa-asterisk {
+    color: $red;
+    font-size: .45em;
+    margin-left: 2px;
+    padding: 2px 0;
+  }
+
+  .wpcf7-date {
+    color: $color-text-body;
+    text-transform: uppercase;
+  }
+}
+
+.form-check {
+  color: $color-text-body;
+  font-size: 14px;
+}
+
+.navbar-toggler {
+  padding: 0;
+
+  &:not(:disabled) {
+    &:not(.disabled) {
+      outline: none;
+    }
+  }
+}
+
+.sticky-navbar {
+  display: none;
+}
+

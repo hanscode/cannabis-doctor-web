@@ -1,0 +1,20 @@
+// IMPORT THEME STYLES ------------------------------------ /
+
+@import 'common/variables';
+@import 'common/bootstrap';
+@import 'common/mixins';
+@import 'common/global';
+@import 'common/wordpress';
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/page';
+@import 'sections/about';
+@import 'sections/services';
+@import 'sections/cover-area';
+@import 'sections/benefits';
+@import 'sections/partners';
+@import 'sections/testimonials';
+@import 'sections/faq';
+@import 'sections/cta';
+@import 'sections/contact';
+@import 'layouts/responsive';

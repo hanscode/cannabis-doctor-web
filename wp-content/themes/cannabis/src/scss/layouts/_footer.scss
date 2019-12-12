@@ -1,0 +1,58 @@
+.footer-menu {
+  a,
+  h2 {
+    color: $white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .fab {
+    &:hover {
+      color: $accent-color;
+    }
+  }
+}
+
+.footer-copyright {
+  border-top: 1px solid $white;
+  color: $white;
+  font-size: 14px;
+  font-weight: 400;
+
+  a {
+    color: $white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    padding: .5rem 1rem;
+    text-align: center;
+
+    span {
+      display: block;
+    }
+  }
+
+  ul {
+    &.nav {
+      display: block;
+      text-align: center;
+
+      li {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+footer {
+  .fab {
+    font-size: 26px;
+  }
+}

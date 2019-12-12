@@ -1,0 +1,14 @@
+.layer-home {
+  @include layer($color-background-overlay, 750px);
+}
+
+.cover-area-home {
+  @include cover(750px, top center, no-repeat, cover);
+
+  span {
+    @include prefix(font-smoothing, antialiased, webkit moz);
+    font-family: $font-body;
+    font-size: 2.813rem;
+    font-weight: 300;
+  }
+}

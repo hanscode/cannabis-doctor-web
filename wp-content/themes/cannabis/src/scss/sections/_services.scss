@@ -1,0 +1,39 @@
+.section-services {
+  background-color: $color-background-grey;
+
+  img {
+    width: 100%;
+  }
+
+  .service-icon {
+    @include prefix(border-radius, 50%, webkit moz);
+
+    background-color: $brand-color;
+    display: inline-block;
+    height: 129px;
+    width: 129px;
+
+    i {
+      &::before {
+        color: $white;
+        font-size: 60px;
+      }
+    }
+
+    img {
+      display: block;
+      height: 67px;
+      margin: 29px auto 0;
+      position: relative;
+      width: 65px;
+    }
+  }
+
+  .fas {
+    display: block;
+    line-height: 129px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+  }
+}

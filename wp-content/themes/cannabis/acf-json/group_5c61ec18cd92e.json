@@ -1,0 +1,153 @@
+{
+    "key": "group_5c61ec18cd92e",
+    "title": "Section: Cover area",
+    "fields": [
+        {
+            "key": "field_5c6cb7b2a8e07",
+            "label": "Select a layout",
+            "name": "layout_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "default": "Default Layout",
+                "home": "Home Layout"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5c61ec18cfedd",
+            "label": "Text cover",
+            "name": "text_cover",
+            "type": "textarea",
+            "instructions": "Type here the text for the cover area.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c6cb7b2a8e07",
+                        "operator": "==",
+                        "value": "home"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5c62057fa77fc",
+            "label": "Background cover",
+            "name": "background_cover",
+            "type": "image",
+            "instructions": "Upload a background image.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "thumbnail",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5c6205cca77fd",
+            "label": "Button cover text",
+            "name": "button_cover_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c6cb7b2a8e07",
+                        "operator": "==",
+                        "value": "home"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5c6205efa77fe",
+            "label": "Button cover link",
+            "name": "button_cover_link",
+            "type": "text",
+            "instructions": "Type a link (e.g. http:\/\/example.com)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5c6cb7b2a8e07",
+                        "operator": "==",
+                        "value": "home"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 0,
+    "description": "",
+    "modified": 1550716854
+}
