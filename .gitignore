@@ -13,7 +13,7 @@
 *.sql
 *.sqlite
 
-# ignore everything in the "wp-content" directory, except:
+# ignore everything in the "wp-content" directory, except: 
 # "mu-plugins" directory
 # "plugins" directory
 # "themes" directory
